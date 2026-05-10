@@ -5,9 +5,8 @@
 #   Ubuntu: apt install ffmpeg
 #   Windows: download from ffmpeg.org and add to PATH
 
-# Currently no Python package dependencies — the engine is built on
-# Python stdlib + subprocess calls to ffmpeg. This file is here so
-# `pip install -r requirements.txt` works as a no-op confirming setup.
+# For generating placeholder branding images during setup
+Pillow>=10.0
 
 # When we add features, dependencies that may land here:
 # openai>=1.0           # for hook generation from transcripts

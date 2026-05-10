@@ -1,44 +1,35 @@
 # Sound Effects
 
-Drop your sound files in this folder with the EXACT names below. Free downloads from Pixabay or Freesound.
+Drop files here with these EXACT names. Free downloads from Pixabay or Freesound.
 
-## Required files (referenced in templates.json)
+## Required for `hvt` template
 
-For the **hype** template:
-- `entry_pop.mp3` — short pop or click for entry trigger
-- `cha_ching.mp3` — cash register / coin sound for target hit
-- `impact_thud.mp3` — bass thud for stop hit
-- `whoosh.mp3` — short transition whoosh
+- `signal_tick.mp3` — short clean tick/click for entry trigger
+- `signal_confirm.mp3` — clean chime/bell for target hit
+- `signal_stop.mp3` — soft thud for stop hit
+- `intro_riser.mp3` — 1-2 sec subtle riser at clip start
 
-For the **cinematic** template:
-- `entry_chime.mp3` — single bell tone
-- `success_swell.mp3` — orchestral hit / brass swell
-- `riser_long.mp3` — 2-3 second rising tension build
+## Required for `hvt-clean` template
 
-For the **clean** template:
-- `entry_subtle.mp3` — soft tick or click
-- `success_clean.mp3` — clean Apple-style chime
-- `impact_subtle.mp3` — soft thud
-- `whoosh_short.mp3` — quick whoosh
+- `signal_tick_soft.mp3`
+- `signal_confirm_soft.mp3`
+- `signal_stop_soft.mp3`
 
-For the **lofi** template:
-- `entry_soft.mp3` — soft kick or vinyl pop
-- `success_soft.mp3` — warm chime
-- `impact_soft.mp3` — soft thud
-- `transition_soft.mp3` — gentle transition
+## Required for `hvt-results` template
 
-## Where to get them (free)
+Reuses signal_tick.mp3 and signal_stop.mp3, plus:
+- `signal_confirm_strong.mp3` — bigger version of confirm sound
 
-1. **Pixabay Sound Effects** — https://pixabay.com/sound-effects/
-   - Search: "cha ching", "whoosh", "impact", "chime"
-   - License: free, no attribution required
-2. **Freesound** — https://freesound.org/
-   - Larger library but mixed licenses, check each
-3. **YouTube Audio Library** — https://www.youtube.com/audiolibrary
-   - Free for YouTube use, well-curated
+## Where to download (free)
 
-## Tip
+- **Pixabay** — https://pixabay.com/sound-effects/
+- **Freesound** — https://freesound.org/
+- **YouTube Audio Library** — https://www.youtube.com/audiolibrary
 
-You don't need ALL of these on day 1. Start with the **hype** template and just download those 4 files. Add others as you build out more templates.
+## On-brand sound design notes
 
-If a sound file is missing, the system will skip it gracefully — no crash, just no sound at that moment.
+- KEEP IT SUBTLE. The HVT brand is institutional, not hype.
+- Aim for soft "ticks" and "chimes" rather than dramatic impacts.
+- Better to under-do than over-do — viewers notice cringe sound design instantly.
+
+The system gracefully skips missing files. Add what you can, build out over time.

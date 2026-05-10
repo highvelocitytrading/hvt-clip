@@ -1,38 +1,30 @@
 # Background Music
 
-Drop your music files in this folder with the EXACT names below.
+Drop tracks here with these EXACT filenames.
 
-## Required files (one per template)
+## Required files
 
-- `hype.mp3` — high-energy trap / electronic, 130+ BPM
-- `cinematic.mp3` — orchestral build, 90-110 BPM
-- `clean.mp3` — minimal tech / Apple-style, 100-120 BPM
-- `lofi.mp3` — chill lo-fi beat, 70-90 BPM
+- `hvt_default.mp3` — institutional, calm. ~80-110 BPM. Think tech-stock-news b-roll vibes.
+- `hvt_clean.mp3` — even quieter. Educational/lesson clip background.
+- `hvt_results.mp3` — slightly more energy for big-result clips. Still on-brand. NOT trap.
 
-## Where to get them (free)
+## Where to download (free, royalty-free)
 
-1. **YouTube Audio Library** — https://www.youtube.com/audiolibrary
-   - **Best option.** Filter by mood, BPM, attribution-not-required.
-2. **Pixabay Music** — https://pixabay.com/music/
-   - Free for commercial use including monetization.
-3. **Free Music Archive** — https://freemusicarchive.org/
-   - Larger, mixed licenses.
+- **YouTube Audio Library** — https://www.youtube.com/audiolibrary — best curated, filter by mood
+- **Pixabay Music** — https://pixabay.com/music/
 
-## Important about volume
+## On-brand music notes
 
-The templates expect mastered, balanced music tracks. If your track is too quiet or too loud, edit the `volume_db` value in `config/templates.json`:
+The HVT brand from the website is calm, structured, institutional. Music should match:
 
-```json
-"music": {
-  "file": "assets/music/hype.mp3",
-  "volume_db": -18,    ← lower this number to make music quieter
-}
-```
+✅ **What works:** Subtle electronic, modern minimalism, ambient pads with a steady pulse, "fintech-app vibe"
 
-## Important about length
+❌ **What doesn't work for HVT:** Trap, drill, dubstep, anything with screaming synths, anything that sounds like a meme stock TikTok
 
-If your music track is shorter than your video clip, the system loops it automatically. So a 60-second music track works fine for a 60-second clip.
+Search terms that work on YouTube Audio Library:
+- "Inspirational corporate"
+- "Minimal electronic"
+- "Modern technology"
+- "Ambient documentary"
 
-## Tip
-
-You don't need all 4 right away. Start with `hype.mp3` (the template most trading content uses), get one short produced end-to-end, then expand.
+The system loops the track to fit the clip duration and ducks volume during sound effects. Keep tracks at moderate volume — heavy normalization makes them sound aggressive.
