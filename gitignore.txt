@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+
+# Project artifacts
+input/*.mp4
+input/*.mov
+input/*.csv
+output/*.mp4
+output/*.mov
+output/*.jpg
+
+# Allow placeholder structure files
+!input/.gitkeep
+!output/.gitkeep
+
+# User-supplied media (gitignored — only README.md committed)
+assets/sounds/*.mp3
+assets/sounds/*.wav
+assets/music/*.mp3
+assets/music/*.wav
+
+# But DO commit the placeholder branding (so partner can run out of the box)
+!assets/branding/*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets
+.env
+.env.local
+*.key
