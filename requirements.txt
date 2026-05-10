@@ -1,0 +1,15 @@
+# HVT Clip dependencies
+# Python 3.10+ required.
+# Note: ffmpeg is a system-level dependency. Install separately:
+#   macOS: brew install ffmpeg
+#   Ubuntu: apt install ffmpeg
+#   Windows: download from ffmpeg.org and add to PATH
+
+# Currently no Python package dependencies — the engine is built on
+# Python stdlib + subprocess calls to ffmpeg. This file is here so
+# `pip install -r requirements.txt` works as a no-op confirming setup.
+
+# When we add features, dependencies that may land here:
+# openai>=1.0           # for hook generation from transcripts
+# anthropic>=0.40       # alternate LLM provider
+# python-dotenv>=1.0    # for .env API key management

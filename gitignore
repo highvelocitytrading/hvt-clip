@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+ENV/
+
+# Project artifacts — input clips and outputs shouldn't be in git
+input/*.mp4
+input/*.mov
+input/*.csv
+output/*.mp4
+output/*.mov
+
+# Allow placeholder structure files
+!input/.gitkeep
+!output/.gitkeep
+
+# Asset binaries — keep folder structure but not actual media files
+# (Add your actual files locally; commit only the README.md inside each)
+assets/sounds/*.mp3
+assets/sounds/*.wav
+assets/music/*.mp3
+assets/music/*.wav
+assets/branding/*.png
+assets/branding/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.local
+*.key
