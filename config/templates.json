@@ -1,0 +1,217 @@
+{
+  "hype": {
+    "description": "Big wins, breakouts. High energy.",
+    "music": {
+      "file": "assets/music/hype.mp3",
+      "volume_db": -18,
+      "duck_volume_db": -28,
+      "duck_at_marker_times_for_seconds": 0.6
+    },
+    "sounds": {
+      "entry": { "file": "assets/sounds/entry_pop.mp3", "volume_db": -8 },
+      "target": { "file": "assets/sounds/cha_ching.mp3", "volume_db": -4 },
+      "stop": { "file": "assets/sounds/impact_thud.mp3", "volume_db": -6 },
+      "intro_whoosh_at_t0": { "file": "assets/sounds/whoosh.mp3", "volume_db": -10 }
+    },
+    "overlays": {
+      "hook": {
+        "font_size": 92,
+        "font_color": "white",
+        "bg_color": "black@0.85",
+        "y_position": 200,
+        "duration_sec": 2.5,
+        "fade_in_sec": 0.15
+      },
+      "entry_label": {
+        "text": "ENTRY",
+        "font_size": 56,
+        "font_color": "#00FF88",
+        "bg_color": "black@0.75",
+        "duration_sec": 1.2
+      },
+      "target_label": {
+        "text": "TARGET HIT",
+        "font_size": 64,
+        "font_color": "#00FF88",
+        "bg_color": "black@0.75",
+        "duration_sec": 1.5
+      },
+      "stop_label": {
+        "text": "STOPPED OUT",
+        "font_size": 56,
+        "font_color": "#FF3344",
+        "bg_color": "black@0.75",
+        "duration_sec": 1.2
+      },
+      "watermark": {
+        "text": "@HIGHVELOCITYTRADING",
+        "font_size": 28,
+        "font_color": "white@0.85",
+        "x": "(w-text_w)/2",
+        "y": "h-60"
+      }
+    }
+  },
+
+  "cinematic": {
+    "description": "Patient setups. Slow build then payoff.",
+    "music": {
+      "file": "assets/music/cinematic.mp3",
+      "volume_db": -16,
+      "duck_volume_db": -26,
+      "duck_at_marker_times_for_seconds": 0.8
+    },
+    "sounds": {
+      "entry": { "file": "assets/sounds/entry_chime.mp3", "volume_db": -10 },
+      "target": { "file": "assets/sounds/success_swell.mp3", "volume_db": -4 },
+      "stop": { "file": "assets/sounds/impact_thud.mp3", "volume_db": -6 },
+      "intro_whoosh_at_t0": { "file": "assets/sounds/riser_long.mp3", "volume_db": -12 }
+    },
+    "overlays": {
+      "hook": {
+        "font_size": 80,
+        "font_color": "white",
+        "bg_color": "black@0.7",
+        "y_position": 220,
+        "duration_sec": 3.0,
+        "fade_in_sec": 0.4
+      },
+      "entry_label": {
+        "text": "ENTRY",
+        "font_size": 50,
+        "font_color": "#00FF88",
+        "bg_color": "black@0.7",
+        "duration_sec": 1.2
+      },
+      "target_label": {
+        "text": "TARGET",
+        "font_size": 60,
+        "font_color": "#00FF88",
+        "bg_color": "black@0.7",
+        "duration_sec": 1.8
+      },
+      "stop_label": {
+        "text": "STOPPED",
+        "font_size": 50,
+        "font_color": "#FF3344",
+        "bg_color": "black@0.7",
+        "duration_sec": 1.2
+      },
+      "watermark": {
+        "text": "@HIGHVELOCITYTRADING",
+        "font_size": 26,
+        "font_color": "white@0.8",
+        "x": "(w-text_w)/2",
+        "y": "h-60"
+      }
+    }
+  },
+
+  "clean": {
+    "description": "Quick scalps. Minimal, tech-bro feel.",
+    "music": {
+      "file": "assets/music/clean.mp3",
+      "volume_db": -20,
+      "duck_volume_db": -30,
+      "duck_at_marker_times_for_seconds": 0.4
+    },
+    "sounds": {
+      "entry": { "file": "assets/sounds/entry_subtle.mp3", "volume_db": -12 },
+      "target": { "file": "assets/sounds/success_clean.mp3", "volume_db": -8 },
+      "stop": { "file": "assets/sounds/impact_subtle.mp3", "volume_db": -10 },
+      "intro_whoosh_at_t0": { "file": "assets/sounds/whoosh_short.mp3", "volume_db": -14 }
+    },
+    "overlays": {
+      "hook": {
+        "font_size": 72,
+        "font_color": "white",
+        "bg_color": "black@0.6",
+        "y_position": 180,
+        "duration_sec": 2.0,
+        "fade_in_sec": 0.2
+      },
+      "entry_label": {
+        "text": "IN",
+        "font_size": 44,
+        "font_color": "#00FF88",
+        "bg_color": "black@0.6",
+        "duration_sec": 0.9
+      },
+      "target_label": {
+        "text": "OUT +",
+        "font_size": 56,
+        "font_color": "#00FF88",
+        "bg_color": "black@0.6",
+        "duration_sec": 1.2
+      },
+      "stop_label": {
+        "text": "OUT -",
+        "font_size": 44,
+        "font_color": "#FF3344",
+        "bg_color": "black@0.6",
+        "duration_sec": 0.9
+      },
+      "watermark": {
+        "text": "@HIGHVELOCITYTRADING",
+        "font_size": 24,
+        "font_color": "white@0.7",
+        "x": "(w-text_w)/2",
+        "y": "h-50"
+      }
+    }
+  },
+
+  "lofi": {
+    "description": "Educational/lesson trades. Reflective.",
+    "music": {
+      "file": "assets/music/lofi.mp3",
+      "volume_db": -22,
+      "duck_volume_db": -32,
+      "duck_at_marker_times_for_seconds": 0.5
+    },
+    "sounds": {
+      "entry": { "file": "assets/sounds/entry_soft.mp3", "volume_db": -14 },
+      "target": { "file": "assets/sounds/success_soft.mp3", "volume_db": -10 },
+      "stop": { "file": "assets/sounds/impact_soft.mp3", "volume_db": -10 },
+      "intro_whoosh_at_t0": { "file": "assets/sounds/transition_soft.mp3", "volume_db": -16 }
+    },
+    "overlays": {
+      "hook": {
+        "font_size": 68,
+        "font_color": "white",
+        "bg_color": "black@0.65",
+        "y_position": 220,
+        "duration_sec": 3.0,
+        "fade_in_sec": 0.5
+      },
+      "entry_label": {
+        "text": "I ENTERED",
+        "font_size": 42,
+        "font_color": "#FFE066",
+        "bg_color": "black@0.65",
+        "duration_sec": 1.5
+      },
+      "target_label": {
+        "text": "TARGET",
+        "font_size": 52,
+        "font_color": "#00FF88",
+        "bg_color": "black@0.65",
+        "duration_sec": 1.5
+      },
+      "stop_label": {
+        "text": "STOPPED",
+        "font_size": 42,
+        "font_color": "#FF3344",
+        "bg_color": "black@0.65",
+        "duration_sec": 1.5
+      },
+      "watermark": {
+        "text": "@HIGHVELOCITYTRADING",
+        "font_size": 24,
+        "font_color": "white@0.7",
+        "x": "(w-text_w)/2",
+        "y": "h-50"
+      }
+    }
+  }
+}
